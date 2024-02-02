@@ -27,7 +27,7 @@ jobs:
     - name: Deploy to GitHub Pages
       run: |
         git config --global user.email "danka.suchomelova@seznam.cz"
-        git config --global user.name "Dana Suchomelova"
+        git config --global user.name "suchomelova-dana"
         git clone https://github.com/${{ github.repository }} --branch gh-pages dist-deploy
         cp -r dist/* dist-deploy
         cd dist-deploy
