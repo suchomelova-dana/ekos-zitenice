@@ -1,4 +1,4 @@
-// module.exports = {
-//     publicPath: '/ekos-zitenice/',
-//
-// }
+module.exports = {
+    publicPath: '/ekos-zitenice/',
+
+}
