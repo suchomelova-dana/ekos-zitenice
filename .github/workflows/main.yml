@@ -24,19 +24,16 @@ jobs:
     - name: Build
       run: yarn build
 
+    - name: Set Git user identity
+      run: |
+        git config user.email "danka.suchomelova@seznam.cz"
+        git config user.name "suchomelova-dana"
+
     - name: Deploy to GitHub Pages
       run: |
-        git config --global user.email "danka.suchomelova@seznam.cz"
-        
-        # Použití osobního přístupového tokenu jako jména uživatele
-        git config --global user.name "${{ secrets.GITHUB_ACTOR }}"
-        
         git clone https://github.com/${{ github.repository }} --branch gh-pages dist-deploy
         cp -r dist/* dist-deploy
         cd dist-deploy
-
-        # Přidání osobního přístupového tokenu
-        echo "//registry.npmjs.org/:_authToken=${{ secrets.GITHUB_TOKEN }}" > ~/.npmrc
 
         git add .
         git commit -m "Deploy updated dist to GitHub Pages"
