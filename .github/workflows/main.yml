@@ -24,6 +24,11 @@ jobs:
     - name: Build
       run: yarn build
 
+    - name: Set Git user identity
+      run: |
+        git config --global user.email "danka.suchomelova@seznam.cz"
+        git config --global user.name "suchomelova-dana"
+
     - name: Deploy to GitHub Pages
       run: |
         git config user.email "danka.suchomelova@seznam.cz"
