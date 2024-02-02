@@ -12,7 +12,7 @@
              :class="{'green-item': contact.icon, 'green-text': contact.title === 'Obchodní jméno'}"
         >
           <div  class="icon">
-            <font-awesome-icon v-if="contact.icon" :icon="['fas', contact.icon]" />
+<!--            <font-awesome-icon v-if="contact.icon" :icon="['fas', contact.icon]" />-->
           </div>
           <div class="title">{{contact.title}}:</div>
           <div class="value">{{contact.value}}</div>

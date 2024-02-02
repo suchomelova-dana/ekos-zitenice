@@ -7,8 +7,8 @@
     </router-link>
 
     <div class="burgerIconArea" v-if="mobile" @click="$emit('change')">
-      <font-awesome-icon v-show="!mobileMenuOpened" :icon="['fas', 'bars']" class="icon"/>
-      <font-awesome-icon v-show="mobileMenuOpened" :icon="['fas', 'xmark']" color="white" class="icon"/>
+<!--      <font-awesome-icon v-show="!mobileMenuOpened" :icon="['fas', 'bars']" class="icon"/>-->
+<!--      <font-awesome-icon v-show="mobileMenuOpened" :icon="['fas', 'xmark']" color="white" class="icon"/>-->
     </div>
 
   </div>
