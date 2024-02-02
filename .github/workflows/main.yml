@@ -7,8 +7,9 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - id: Build-Vue
-      uses: xRealNeon/VuePagesAction@1.0.0
+      uses: LizAinslie/VueBuildToBranchAction@1.0.2
       with:
-        username: 'suchomelova-dana'
-        reponame: 'ekos-zitenice'
+        username: 'YourGithubName'
+        reponame: 'YourRepoName'
         token: ${{ secrets.GITHUB_TOKEN }} # Leave this line unchanged
+        branch: 'YourBranchName' # defaults to 'gh-pages' but can be changed
