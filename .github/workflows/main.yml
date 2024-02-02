@@ -1,49 +1,14 @@
-name: Deploy to GitHub Pages
-
-on:
-  push:
-    branches:
-      - master
-
+name: Build Vue
+on: [push]
 jobs:
-  deploy:
+  build_vue:
     runs-on: ubuntu-latest
-
+    name: Build Vue
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v2
-
-    - name: Setup Node.js
-      uses: actions/setup-node@v2
+    - uses: actions/checkout@v2
+    - id: Build-Vue
+      uses: xRealNeon/VuePagesAction@1.0.0
       with:
-        node-version: 14
-
-    - name: Install dependencies
-      run: yarn install
-
-    - name: Build
-      run: yarn build
-
-    - name: Set Git user identity
-      run: |
-        git config --global user.email "danka.suchomelova@seznam.cz"
-        git config --global user.name "suchomelova-dana"
-
-    - name: Deploy to GitHub Pages
-      run: |
-        git config user.email "danka.suchomelova@seznam.cz"
-        git config user.name "suchomelova-dana"
-        git clone https://github.com/${{ github.repository }} --branch gh-pages dist-deploy
-        cp -r dist/* dist-deploy
-        cd dist-deploy
-    
-        # Setting Git identity
-        git config user.email "danka.suchomelova@seznam.cz"
-        git config user.name "suchomelova-dana"
-    
-        # Adding Personal Access Token
-        echo "//registry.npmjs.org/:_authToken=${{ secrets.GITHUB_TOKEN }}" > ~/.npmrc
-    
-        git add .
-        git commit -m "Deploy updated dist to GitHub Pages"
-        git push origin gh-pages
+        username: 'suchomelova-dana'
+        reponame: 'ekos-zitenice'
+        token: ${{ secrets.GITHUB_TOKEN }} # Leave this line unchanged
