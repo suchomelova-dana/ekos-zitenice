@@ -36,7 +36,14 @@ jobs:
         git clone https://github.com/${{ github.repository }} --branch gh-pages dist-deploy
         cp -r dist/* dist-deploy
         cd dist-deploy
-
+    
+        # Setting Git identity
+        git config user.email "danka.suchomelova@seznam.cz"
+        git config user.name "suchomelova-dana"
+    
+        # Adding Personal Access Token
+        echo "//registry.npmjs.org/:_authToken=${{ secrets.GITHUB_TOKEN }}" > ~/.npmrc
+    
         git add .
         git commit -m "Deploy updated dist to GitHub Pages"
         git push origin gh-pages
