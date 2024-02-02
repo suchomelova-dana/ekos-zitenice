@@ -1,6 +1,7 @@
 <template>
   <a :href="href" target="_blank">
     <button>{{ btnText }}</button>
+
   </a>
 </template>
 
