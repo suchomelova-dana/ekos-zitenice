@@ -39,6 +39,10 @@ const ContactArray : Contact[] = [
     {
         title: 'Zápis v OR',
         value: 'dne 25. listopadu 1992 u Krajského soudu v Ústí nad Labem, oddíl C, vložka 3706'
+    },
+    {
+        title: 'test',
+        value: 'test'
     }
 ]
 
