@@ -28,9 +28,6 @@ jobs:
       run: |
         git config --global user.email "danka.suchomelova@seznam.cz"
         git config --global user.name "suchomelova-dana"
-        git add .
-        git commit -m "App built, dist updated"
-        git push origin
         git subtree push --prefix dist origin gh/pages
         
 
