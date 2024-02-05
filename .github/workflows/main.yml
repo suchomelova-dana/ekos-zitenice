@@ -31,7 +31,7 @@ jobs:
         git fetch origin gh-pages:gh-pages
         git checkout gh-pages
         git rm -r --cached .
-        git checkout master -- dist/
+        git checkout master -- /dist/
         git add .
         git commit -m "Deploy updated dist to GitHub Pages"
         git push origin gh-pages
