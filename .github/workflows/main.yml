@@ -26,7 +26,8 @@ jobs:
 
     - name: Deploy to GitHub Pages
       run: |
-        git checkout -b gh-pages
+        git fetch origin gh-pages:gh-pages
+        git checkout gh-pages || git checkout -b gh-pages
         git rm -r .
         cp -r dist/* .
         git add .
