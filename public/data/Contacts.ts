@@ -44,6 +44,10 @@ const ContactArray : Contact[] = [
         title: 'Test',
         value: 'test'
     },
+    {
+        title: 'Test2',
+        value: 'test2'
+    },
 ]
 
 export default ContactArray
