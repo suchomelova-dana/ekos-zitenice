@@ -26,6 +26,9 @@ jobs:
 
     - name: Deploy to GitHub Pages
       run: |
+        git add .
+        git commit -m "App builded, dist updated"
+        git push origin
         git subtree push --prefix dist origin gh/pages
         
 
