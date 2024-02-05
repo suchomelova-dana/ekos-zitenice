@@ -26,7 +26,7 @@ jobs:
 
     - name: Deploy to GitHub Pages
       run: |
-        git gh-deploy /dist
+        git subtree push --prefix dist origin gh/pages
         
 
 
