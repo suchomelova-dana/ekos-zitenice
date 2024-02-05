@@ -33,7 +33,9 @@ jobs:
         git commit -m "Deploy updated dist to GitHub Pages"
         git push origin gh-pages
         git checkout gh-pages
-        git rm -r .
+        if [ "$(ls -A)" ]; then
+          git rm -r .
+        fi
 #        git checkout master -- dist
 #        git add .
 #        git commit -m "Deploy updated dist to GitHub Pages"
