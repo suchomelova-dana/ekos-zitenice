@@ -30,7 +30,7 @@ jobs:
         git config --global user.name "suchomelova-dana"
         cp -r dist/* .
         git fetch origin gh-pages:gh-pages
-        git checkout gh-pages || git checkout -b gh-pages
+        git git checkout -b gh-pages
         git rm -r .
         git add .
         git commit -m "Deploy updated dist to GitHub Pages"
