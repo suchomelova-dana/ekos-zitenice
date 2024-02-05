@@ -42,7 +42,7 @@ const ContactArray : Contact[] = [
     },
     {
         title: 'test1',
-        value: 'test1'
+        value: 'test2'
     }
 ]
 
