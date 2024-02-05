@@ -28,6 +28,7 @@ jobs:
       run: |
         git config --global user.email "danka.suchomelova@seznam.cz"
         git config --global user.name "suchomelova-dana"
+        git pull
         git subtree push --prefix dist origin gh/pages
         
 
