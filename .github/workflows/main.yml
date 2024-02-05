@@ -39,7 +39,7 @@ jobs:
 #        git commit -m "Deploy updated dist to GitHub Pages"
 #        git push origin gh-pages
 
-        cd dist
+        git cd dist
         git init
         git add -A
         git commit -m "new deplyment"
