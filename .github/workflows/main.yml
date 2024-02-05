@@ -26,18 +26,7 @@ jobs:
 
     - name: Deploy to GitHub Pages
       run: |
-        git config --global user.email "danka.suchomelova@seznam.cz"
-        git config --global user.name "suchomelova-dana"
-        git add .
-        git commit -m "App builded, dist updated"
-        git push origin
-        git fetch origin gh-pages:gh-pages
-        git checkout gh-pages
-        git fetch master
-        git checkout master -- dist
-        git add .
-        git commit -m "Deploy updated dist to GitHub Pages"
-        git push origin gh-pages
+        git gh-deploy /dist
         
 
 
