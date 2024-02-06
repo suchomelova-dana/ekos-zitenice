@@ -1,6 +1,6 @@
 <template>
   <button class="btn" @click="scrollToTop()">
-<!--    <font-awesome-icon  :icon="['fas', 'angle-up']" class="icon"/>-->
+    <font-awesome-icon  :icon="['fas', 'angle-up']" class="icon"/>
   </button>
 </template>
 
