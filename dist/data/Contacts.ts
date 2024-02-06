@@ -47,6 +47,10 @@ const ContactArray : Contact[] = [
     {
         title: 'test2',
         value: 'test2'
+    },
+    {
+        title: 'test3',
+        value: 'test3'
     }
 ]
 
