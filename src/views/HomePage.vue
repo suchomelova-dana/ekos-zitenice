@@ -389,14 +389,15 @@ function getFile(){
   @media only screen and (max-width: 672px) {
     #imageArea{
       height: 300px;
-      padding-bottom: 20px;
+      padding-bottom: 10px;
+      justify-content: start;
       /*justify-content: center;*/
       /*text-align: center;*/
     }
 
     .headingArea h2{
       font-size: 17px;
-      padding-left: 0;
+      /*padding-left: 0;*/
       /*background-color: orange;*/
     }
 
