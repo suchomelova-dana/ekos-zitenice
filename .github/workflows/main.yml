@@ -26,8 +26,6 @@ jobs:
 
     - name: Deploy to GitHub Pages
       run: |
-        git config --global user.email "danka.suchomelova@seznam.cz"
-        git config --global user.name "suchomelova-dana"
         yarn deploy
         
 
