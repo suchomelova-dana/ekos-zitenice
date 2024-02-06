@@ -395,13 +395,13 @@ function getFile(){
     }
 
     .headingArea h2{
-      font-size: 3vw;
+      font-size: 17px;
       padding-left: 0;
       /*background-color: orange;*/
     }
 
     .headingArea h1{
-      font-size: 8vw;
+      font-size: 35px;
       font-weight: 800;
       /*background-color: purple;*/
     }
@@ -409,7 +409,7 @@ function getFile(){
     .hiringBox{
       flex-direction: column;
       gap: 15px;
-      width: 80%;
+      width: 85%;
     }
 
     .oFirmeContent{
@@ -418,8 +418,7 @@ function getFile(){
 
     .oFirmeContent .box{
       width: 90%;
-      border-radius: 20px;
-      padding: 40px 20px;
+      padding: 40px 0;
       box-shadow: none;
     }
 
@@ -475,7 +474,7 @@ function getFile(){
 
     .paragraphArea .paragraphs .par{
 
-      width: 85%;
+      width: 90%;
     }
 
     .paragraphArea .imageArea{

@@ -118,6 +118,10 @@ defineProps<{
     width: 100%;
   }
 
+  .itemTextArea{
+    width: 100%;
+  }
+
 }
 
 /* Tablets */

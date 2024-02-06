@@ -112,6 +112,10 @@ import BtnComp from "@/components/BtnComp.vue";
 
   .box{
     width: 100%;
+    padding: 30px 30px;
+  }
+  .box .image{
+    height: 150px;
   }
 }
 

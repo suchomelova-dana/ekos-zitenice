@@ -121,6 +121,7 @@ function handleResize(){
 @media only screen and (max-width: 672px) {
   .itemArea .itemImage{
     width: 100%;
+    height: 250px;
   }
   .itemArea .text{
     width: 100%;

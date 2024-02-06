@@ -38,4 +38,24 @@
       transform: translateX(0);
     }
   }
+
+  @media only screen and (max-width: 672px) {
+    .headingArea h1{
+      font-size: 40px;
+    }
+    .headingArea{
+      justify-content: center;
+    }
+  }
+
+  /* Tablets */
+  @media only screen and (min-width: 673px) and (max-width: 990px) {
+
+  }
+
+
+  /* Laptops */
+  @media only screen and (min-width: 991px) {
+
+  }
 </style>

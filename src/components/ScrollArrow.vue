@@ -36,15 +36,20 @@ window.onresize = () => windowHeight = window.innerHeight
   z-index: 80;
 }
 
-.btn:hover{
-  cursor: pointer;
-  transform: scale(1.1);
-  transition: 0.1s ease-in-out;
-  background-color: #076D06;
-}
+
 
 .icon{
   height: 30px;
   width: 30px;
+}
+
+/* Laptops */
+@media only screen and (min-width: 991px) {
+  .btn:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 0.1s ease-in-out;
+    background-color: #076D06;
+  }
 }
 </style>
