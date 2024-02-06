@@ -1,40 +1,55 @@
-name: Deploy to GitHub Pages
-
-on:
-  push:
-    branches:
-      - master
-
+name: Build Vue
+on: [push]
 jobs:
-  deploy:
+  build_vue:
     runs-on: ubuntu-latest
-
+    name: Build Vue
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v2
+      - uses: actions/checkout@v2
+      - id: Build-Vue
+        uses: xRealNeon/VuePagesAction@1.0.1
+        with:
+          username: 'suchomelova-dana'
+          reponame: 'ekos-zitenice'
+          token: ${{ secrets.GITHUB_TOKEN }} # Leave this line unchanged
 
-    - name: Setup Node.js
-      uses: actions/setup-node@v2
-      with:
-        node-version: 14
-
-    - name: Install dependencies
-      run: yarn install
-
-    - name: Build
-      run: yarn build
-
-    - name: Deploy to GitHub Pages
-      run: |
-        git config --global user.email "danka.suchomelova@seznam.cz"
-        git config --global user.name "suchomelova-dana"
-        cd dist
-        git init
-        git add -A
-        git commit -m "new deployment"
-        git remote add origin git@github.com:suchomelova-dana/ekos-zitenice.git
-        git push origin master:gh-pages
-        
+#name: Deploy to GitHub Pages
+#
+#on:
+#  push:
+#    branches:
+#      - master
+#
+#jobs:
+#  deploy:
+#    runs-on: ubuntu-latest
+#
+#    steps:
+#    - name: Checkout repository
+#      uses: actions/checkout@v2
+#
+#    - name: Setup Node.js
+#      uses: actions/setup-node@v2
+#      with:
+#        node-version: 14
+#
+#    - name: Install dependencies
+#      run: yarn install
+#
+#    - name: Build
+#      run: yarn build
+#
+#    - name: Deploy to GitHub Pages
+#      run: |
+#        git config --global user.email "danka.suchomelova@seznam.cz"
+#        git config --global user.name "suchomelova-dana"
+#        cd dist
+#        git init
+#        git add -A
+#        git commit -m "new deployment"
+#        git remote add origin git@github.com:suchomelova-dana/ekos-zitenice.git
+#        git push origin master:gh-pages
+#
         
 
 
