@@ -233,6 +233,10 @@ import BtnComp from "@/components/BtnComp.vue";
     /*background-color: orange;*/
   }
 
+  .contacts .heading{
+    padding-left: 0;
+  }
+
   .location{
     width: 100%;
     /*background-color: orange;*/

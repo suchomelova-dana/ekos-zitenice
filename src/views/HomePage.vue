@@ -396,13 +396,13 @@ function getFile(){
     }
 
     .headingArea h2{
-      font-size: 17px;
+      font-size: 25px;
       /*padding-left: 0;*/
       /*background-color: orange;*/
     }
 
     .headingArea h1{
-      font-size: 35px;
+      font-size: 50px;
       font-weight: 800;
       /*background-color: purple;*/
     }

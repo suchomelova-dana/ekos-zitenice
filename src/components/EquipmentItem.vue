@@ -127,6 +127,9 @@ function handleResize(){
   .itemArea .text{
     width: 100%;
   }
+  .itemArea .text  .paragraph .rectangle{
+    left: -20px;
+  }
 }
 
 /* Tablets */
