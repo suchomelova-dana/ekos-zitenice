@@ -28,7 +28,7 @@ jobs:
       run: |
         git config --global user.email "danka.suchomelova@seznam.cz"
         git config --global user.name "suchomelova-dana"
-        chmod +x deploy.sh
+        chmod +x /deploy.sh
         yarn deploy
         
 
