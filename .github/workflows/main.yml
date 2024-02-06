@@ -20,15 +20,20 @@ jobs:
 
     - name: Install dependencies
       run: yarn install
-#
-#    - name: Build
-#      run: yarn build
+
+    - name: Build
+      run: yarn build
 
     - name: Deploy to GitHub Pages
       run: |
         git config --global user.email "danka.suchomelova@seznam.cz"
         git config --global user.name "suchomelova-dana"
-        yarn deploy
+        cd dist
+        git init
+        git add -A
+        git commit -m "new deplyment"
+        git push -f git@github.com:suchomelova-dana/ekos-zitenice.git master:gh-pages
+        
         
 
 
