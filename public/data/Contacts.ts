@@ -40,26 +40,6 @@ const ContactArray : Contact[] = [
         title: 'Zápis v OR',
         value: 'dne 25. listopadu 1992 u Krajského soudu v Ústí nad Labem, oddíl C, vložka 3706'
     },
-    {
-        title: 'test1',
-        value: 'test1'
-    },
-    {
-        title: 'test2',
-        value: 'test2'
-    },
-    {
-        title: 'test3',
-        value: 'test3'
-    },
-    {
-        title: 'test4',
-        value: 'test'
-    },
-    {
-        title: 'test5',
-        value: 'test'
-    }
 ]
 
 export default ContactArray
