@@ -396,13 +396,13 @@ function getFile(){
     }
 
     .headingArea h2{
-      font-size: 25px;
+      font-size: 18px !important;
       /*padding-left: 0;*/
       /*background-color: orange;*/
     }
 
     .headingArea h1{
-      font-size: 50px;
+      font-size: 35px !important;
       font-weight: 800;
       /*background-color: purple;*/
     }
@@ -411,6 +411,8 @@ function getFile(){
       flex-direction: column;
       gap: 15px;
       width: 85%;
+      padding: 20px 30px;
+      font-size: 17px;
     }
 
     .oFirmeContent{

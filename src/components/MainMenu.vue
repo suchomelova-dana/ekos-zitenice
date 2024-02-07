@@ -66,7 +66,7 @@ nav a{
 
   nav{
     width: 100%;
-    padding: 20px 10px;
+    padding: 70px 10px;
     flex-direction: column;
     height: 100vh;
     position: absolute !important;
