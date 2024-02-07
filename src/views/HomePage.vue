@@ -1,7 +1,7 @@
 <template>
   <div id="imageArea">
     <div class="headingArea">
-      <h2>Vítejte na stránkách firmy</h2>
+<!--      <h2>Vítejte na stránkách firmy</h2>-->
       <h1>EKOS - Žitenice s.r.o.</h1>
     </div>
   </div>
