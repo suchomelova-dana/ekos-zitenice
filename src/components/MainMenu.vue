@@ -66,17 +66,22 @@ nav a{
 
   nav{
     width: 100%;
-    padding: 70px 10px;
+    padding: 10vh 10px;
     flex-direction: column;
     height: 100vh;
     position: absolute !important;
     top: 0;
     left: 0;
     animation: slide-from-right 0.5s;
+    /*background-color: white;*/
+    /*color: #076D06;*/
   }
 
   nav a{
     padding: 5px 10px;
+    /*color: #0A9E09;*/
+    font-weight: 600;
+    font-size: 17px;
   }
 }
 

@@ -395,16 +395,22 @@ function getFile(){
       /*text-align: center;*/
     }
 
+    .headingArea{
+      background-color: #353535;
+      width: 100%;
+      align-items: center;
+    }
+
     .headingArea h2{
       font-size: 18px !important;
-      /*padding-left: 0;*/
-      /*background-color: orange;*/
+      padding-left: 0;
+      background-color: orange;
     }
 
     .headingArea h1{
       font-size: 35px !important;
       font-weight: 800;
-      /*background-color: purple;*/
+      background-color: purple;
     }
 
     .hiringBox{
