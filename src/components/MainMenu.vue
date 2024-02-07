@@ -55,7 +55,6 @@ nav{
 nav a{
   color: white;
   padding: 5px 30px;
-  /*background-color: red;*/
   text-decoration: none;
 }
 
@@ -63,7 +62,6 @@ nav a{
 
 /* Phones */
 @media only screen and (max-width: 672px) {
-
   nav{
     width: 100%;
     padding: 10vh 10px;
@@ -73,13 +71,10 @@ nav a{
     top: 0;
     left: 0;
     animation: slide-from-right 0.5s;
-    /*background-color: white;*/
-    /*color: #076D06;*/
   }
 
   nav a{
     padding: 5px 10px;
-    /*color: #0A9E09;*/
     font-weight: 600;
     font-size: 17px;
   }
@@ -87,7 +82,6 @@ nav a{
 
 /* Tablets */
 @media only screen and (min-width: 673px) and (max-width: 990px) {
-
   nav{
     width: 100%;
   }

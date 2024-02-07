@@ -25,7 +25,7 @@
         <div class="heading">Kde nás najdete</div>
         <div class="locationCenter">
           <div class="locationImage">
-            <img src="../../public/map.png" alt="">
+            <img src="../../public/images/contacts/map.png" alt="">
           </div>
           <BtnComp btn-text="Otevřít v mapách Google" href="https://maps.app.goo.gl/sL7R2TRUU3KXasZ66"></BtnComp>
         </div>
@@ -66,7 +66,6 @@ import BtnComp from "@/components/BtnComp.vue";
 .contacts{
   display: flex;
   flex-direction: column;
-  /*background-color: #353535;*/
   width: 50%;
   align-items: center;
   margin-bottom: 50px;
@@ -77,7 +76,6 @@ import BtnComp from "@/components/BtnComp.vue";
   display: flex;
   flex-direction: column;
   align-items: start;
-  /*background-color: red;*/
 }
 .contacts .heading{
   padding-left: 45px;
@@ -97,8 +95,6 @@ import BtnComp from "@/components/BtnComp.vue";
   text-align: left;
   width: 100%;
   position: relative;
-  /*background-color: blueviolet;*/
-  /*flex-wrap: wrap;*/
   padding: 8px 5px 8px 0;
 }
 
@@ -116,10 +112,6 @@ import BtnComp from "@/components/BtnComp.vue";
 }
 
 .contactItem .icon{
-  /*position: absolute;*/
-  /*left: -50px;*/
-  /*top: 0;*/
-  /*background-color: orange;*/
   height: 100%;
   width: 50px;
   display: flex;
@@ -135,7 +127,6 @@ import BtnComp from "@/components/BtnComp.vue";
   width: 30%;
   display: flex;
   padding-right: 5px;
-  /*background-color: #E2F3E1;*/
 }
 
 .contactItem .value{
@@ -143,7 +134,6 @@ import BtnComp from "@/components/BtnComp.vue";
   width: 70%;
   display: flex;
   flex-wrap: wrap;
-  /*background-color: blue;*/
 }
 
 
@@ -153,20 +143,13 @@ import BtnComp from "@/components/BtnComp.vue";
   flex-direction: column;
   align-items: center;
   padding-left: 3%;
-  /*background-color: orange;*/
   margin-bottom: 50px;
-
-
 }
 
 .locationContent{
   display: flex;
   flex-direction: column;
   align-items: start;
-  /*padding: 0 5%;*/
-  /*width: 80%;*/
-  /*background-color: black;*/
-  /*gap: 20px;*/
   width: 100%;
   height: 100%;
 }
@@ -180,7 +163,6 @@ import BtnComp from "@/components/BtnComp.vue";
 
 
 .location .locationContent .locationImage{
-  /*background-color: #353535;*/
   width: 100%;
   height: 100%;
   padding-bottom: 10px;
@@ -216,21 +198,16 @@ import BtnComp from "@/components/BtnComp.vue";
   font-weight: bold;
 }
 
-
-
 /* Phones */
 @media only screen and (max-width: 672px) {
-
   .contacts{
     width: 100%;
-    /*background-color: blue;*/
     align-items: center;
     justify-content: center;
   }
 
   .contactsContent{
     align-items: center;
-    /*background-color: orange;*/
   }
 
   .contacts .heading{
@@ -239,23 +216,15 @@ import BtnComp from "@/components/BtnComp.vue";
 
   .location{
     width: 100%;
-    /*background-color: orange;*/
     padding-left: 0;
-
   }
 
   .locationContent{
     align-items: center;
   }
 
-  .content{
-    /*flex-direction: column;*/
-    /*gap: 50px;*/
-  }
-
   .whistleblowing{
     width: 100%;
-    /*background-color: purple;*/
     padding: 0 5%;
     align-items: center;
     text-align: center;
@@ -265,31 +234,24 @@ import BtnComp from "@/components/BtnComp.vue";
 
 /* Tablets */
 @media only screen and (min-width: 673px) and (max-width: 990px) {
-
   .contacts{
     width: calc(100% + 50px);
-    /*background-color: blue;*/
     left: -50px !important;
     position: relative;
   }
 
-
   .location{
     width: 100%;
-    /*background-color: orange;*/
     padding-left: 0;
   }
 
   .content{
-    /*flex-direction: column;*/
     gap: 50px;
     margin: 40px 70px;
   }
 
   .whistleblowing{
     width: 100%;
-    /*background-color: purple;*/
-
   }
 }
 
@@ -299,7 +261,6 @@ import BtnComp from "@/components/BtnComp.vue";
 
   .contacts{
     width: calc(50% + 50px);
-    /*background-color: blue;*/
     left: -50px !important;
     position: relative;
   }
@@ -310,7 +271,6 @@ import BtnComp from "@/components/BtnComp.vue";
 
   .content{
     margin: 40px 70px;
-
   }
 }
 

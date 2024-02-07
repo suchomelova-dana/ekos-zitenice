@@ -11,7 +11,7 @@
         </div>
       </div>
       <div class="imageArea">
-        <img class="ISOimg" src="../../public/ISO.png" alt="">
+        <img class="ISOimg" src="../../public/images/homepage/ISO.png" alt="">
       </div>
     </div>
 
@@ -29,7 +29,6 @@ import BtnComp from "@/components/BtnComp.vue";
 <style scoped>
 .footer{
   width: 100%;
-  /*padding: 30px;*/
   display: flex;
   flex-direction: row;
 }
@@ -71,7 +70,6 @@ import BtnComp from "@/components/BtnComp.vue";
 }
 
 .footer .btnSet{
-  /*background-color: orange;*/
   display: flex;
   justify-content: start;
   align-items: center;

@@ -16,7 +16,7 @@
   <div class="oFirmeArea">
     <h3>O firmě</h3>
     <div class="oFirmeContent">
-      <img src="../../public/zitenice-building.png" alt="" class="imageShadow">
+      <img src="../../public/images/homepage/zitenice-building.png" alt="" class="imageShadow">
       <div class="box">
         <p>Organizace EKOS-Žitenice s.r.o. je ryze českou vodohospodářskou společností s 30ti letou historií, s vlastním vybavením v řádech desítek mil. Kč a s celkovým počtem cca 50 zaměstnanců.</p>
         <a href="PDFs/struktura_spolecnosti.pdf" target="_blank">Organizační struktura společnosti</a>
@@ -62,7 +62,7 @@
         </div>
       </div>
       <div class="imageArea">
-        <img src="../../public/historyOfConstructions/2016/2016-PrahaMecholupyKaufland.jpg" alt="" class="imageShadow">
+        <img src="../../public/images/historyOfConstructions/2016/2016-PrahaMecholupyKaufland.jpg" alt="" class="imageShadow">
       </div>
     </div>
 
@@ -90,8 +90,7 @@ function getFile(){
   #imageArea{
     width: 100%;
     height: 500px;
-    /*background-color: greenyellow;*/
-    background-image: linear-gradient(rgba(0,0,0,0) 30%, rgba(0,0,0,0.9)), url('../../public/landing_page.jpg');
+    background-image: linear-gradient(rgba(0,0,0,0) 30%, rgba(0,0,0,0.9)), url('../../public/images/homepage/landing_page.jpg');
     background-repeat: no-repeat;
     background-size: cover ;
     background-position: center;
@@ -100,7 +99,6 @@ function getFile(){
   }
 
   .headingArea{
-    /*background-color: orange;*/
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -112,7 +110,6 @@ function getFile(){
     color: white;
     text-shadow: rgba(0, 0, 0, 0.7) 0px 3px 8px ;
     font-weight: 600;
-    /*background-color: orange;*/
     padding-left: 5px;
     margin-bottom: -1.3vw;
   }
@@ -226,7 +223,7 @@ function getFile(){
   }
 
   .realizujemeArea .darkGreenArea{
-    background-image: linear-gradient( rgba(7, 125, 6, 0.9), rgba(7, 125, 6, 0.9) ), url("../../public/equipment/09.jpg") ;
+    background-image: linear-gradient( rgba(7, 125, 6, 0.9), rgba(7, 125, 6, 0.9) ), url("../../public/images/equipment/09.jpg") ;
     /*min-height: 500px;*/
     width: 65%;
     gap: 20px;
@@ -306,15 +303,11 @@ function getFile(){
 
 
   .paragraphArea{
-    /*background-color: red;*/
     width: 100%;
-    /*height: 300px;*/
     display: flex;
     flex-direction: row;
     align-items: center;
-    /*justify-content: center;*/
     padding: 30px;
-    /*overflow: hidden;*/
   }
 
   .paragraphArea .paragraphs{
@@ -324,17 +317,14 @@ function getFile(){
     gap: 70px;
     align-items: center;
     justify-content: center;
-    /*background-color: orange;*/
     padding: 30px;
   }
 
   .paragraphArea .paragraphs .par{
     text-align: left;
-    /*background-color: blueviolet;*/
     width: 70%;
     position: relative;
     z-index: 3;
-    /*background-color: blueviolet;*/
   }
 
   .paragraphArea .paragraphs .par1{
@@ -391,12 +381,9 @@ function getFile(){
       height: 300px;
       padding-bottom: 10px;
       justify-content: start;
-      /*justify-content: center;*/
-      /*text-align: center;*/
     }
 
     .headingArea{
-      background-color: #353535;
       width: 100%;
       align-items: center;
     }
@@ -404,13 +391,12 @@ function getFile(){
     .headingArea h2{
       font-size: 18px !important;
       padding-left: 0;
-      background-color: orange;
+      font-weight: 500;
     }
 
     .headingArea h1{
       font-size: 35px !important;
       font-weight: 800;
-      background-color: purple;
     }
 
     .hiringBox{
@@ -441,7 +427,6 @@ function getFile(){
     }
 
     .realizujemeArea{
-      /*background-color: #E2F3E1;*/
       flex-direction: column;
       align-items: center;
       padding-bottom: 30px;

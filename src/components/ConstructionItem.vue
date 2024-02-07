@@ -1,7 +1,7 @@
 <template>
   <div class="itemBox" :class="index % 2 === 0 ? 'bg-green' : 'bg-white'">
     <div class="imageArea">
-      <img :src="'historyOfConstructions/' + item.year + '/' + item.image">
+      <img :src="'images/historyOfConstructions/' + item.year + '/' + item.image">
     </div>
 
     <div class="itemTextArea">
@@ -50,7 +50,6 @@ defineProps<{
   justify-content: start;
   align-items: center;
   padding: 40px 5%;
-  /*background-color: #E2F3E1;*/
   gap: 5%;
 }
 
@@ -60,7 +59,6 @@ defineProps<{
   gap: 10px;
   text-align: left;
   width: 70%;
-  /*background-color: orange;*/
 }
 
 .itemTextArea h2{
@@ -75,7 +73,6 @@ defineProps<{
 .itemTextArea .titleAndValue{
   display: flex;
   flex-direction: row;
-  /*background-color: #353535;*/
   width: 100%;
   text-align: left;
 
@@ -83,13 +80,11 @@ defineProps<{
 
 .itemTextArea .title{
   width: 200px
-  /*margin-right: auto;*/
 }
 
 .itemTextArea .value{
   font-weight: 600;
   width: calc(100% - 200px);
-  /*width: 50%;*/
 }
 
 .imageArea{

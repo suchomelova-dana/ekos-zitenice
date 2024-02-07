@@ -2,7 +2,7 @@
 
   <div class="itemArea">
     <div class="itemImage" v-if="windowWidth >= 673" :class="{'bg-white': !equipment.image}">
-      <img :src="'equipment/' + equipment.image" alt="" v-if="equipment.image" loading="lazy">
+      <img :src="'images/equipment/' + equipment.image" alt="" v-if="equipment.image" loading="lazy">
     </div>
 
     <div class="text">
@@ -54,7 +54,6 @@ function handleResize(){
   justify-content: start;
   align-items: center;
   gap: 70px;
-  /*background-color: red;*/
 }
 
 .bg-white{
@@ -65,7 +64,6 @@ function handleResize(){
 .itemArea .itemImage{
   height: 300px;
   width: 400px;
-  /*aspect-ratio: 3/2;*/
   background-color: whitesmoke;
 }
 
@@ -79,14 +77,12 @@ function handleResize(){
   color: #0A9E09;
   text-transform: uppercase;
   font-size: 30px;
-  /*background-color: #353535;*/
 
 }
 
 .itemArea .text{
   display: flex;
   flex-direction: column;
-  /*background-color: #E2F3E1;*/
   text-align: left;
   gap: 20px;
   width: 60%;
@@ -138,9 +134,6 @@ function handleResize(){
     width: 300px;
     height: 250px;
   }
-  /*.itemArea .text{*/
-  /*  width: 50%;*/
-  /*}*/
 }
 
 

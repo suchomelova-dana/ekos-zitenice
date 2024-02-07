@@ -25,19 +25,19 @@
     color: white;
     font-size: 60px;
     text-transform: uppercase;
-    animation: 1s slide-from-left;
+    /*animation: 1s slide-from-left;*/
   }
 
-  @keyframes slide-from-left {
-    0%{
-      opacity: 0;
-      transform: translateX(-20px);
-    }
-    80%{
-      opacity: 1;
-      transform: translateX(0);
-    }
-  }
+  /*@keyframes slide-from-left {*/
+  /*  0%{*/
+  /*    opacity: 0;*/
+  /*    transform: translateX(-20px);*/
+  /*  }*/
+  /*  80%{*/
+  /*    opacity: 1;*/
+  /*    transform: translateX(0);*/
+  /*  }*/
+  /*}*/
 
   @media only screen and (max-width: 672px) {
     .headingArea h1{

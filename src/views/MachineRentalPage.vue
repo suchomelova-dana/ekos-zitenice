@@ -7,7 +7,7 @@
       <h3>s obsluhou</h3>
       <div class="image">
 <!--        <img src="" alt="">-->
-        <img src="../../public/historyOfConstructions/2016/2016-Zatec.jpg" alt="">
+        <img src="../../public/images/historyOfConstructions/2016/2016-Zatec.jpg" alt="">
       </div>
       <BtnComp btn-text="Ceník" href="PDFs/pronajem_stroju_s_obsluhou.pdf"></BtnComp>
     </a>
@@ -16,7 +16,7 @@
       <h2>Pronájem strojů</h2>
       <h3>bez obsluhy</h3>
       <div class="image">
-          <img src="../../public/equipment/40.jpg" alt="">
+          <img src="../../public/images/equipment/40.jpg" alt="">
       </div>
       <BtnComp btn-text="Ceník" href="PDFs/pronajem_stroju_s_obsluhou.pdf"></BtnComp>
     </a>
@@ -73,9 +73,7 @@ import BtnComp from "@/components/BtnComp.vue";
   color: #0A9E09;
 }
 
-
 .box .image{
-  /*width: 30%;*/
   height: 200px;
   width: 100%;
   margin: 20px;
@@ -86,16 +84,12 @@ import BtnComp from "@/components/BtnComp.vue";
   transition: transform .5s ease;
 }
 
-
 .box .image img{
   height: 100%;
   width: 100%;
   object-fit: cover;
   transition: transform .5s ease;
   position: relative;
-  /*transform: scale(105%);*/
-
-
 }
 
 .box:hover .image img{

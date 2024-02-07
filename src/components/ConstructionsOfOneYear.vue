@@ -47,8 +47,6 @@ function checkAnimation() {
   }
 }
 
-// window.onscroll = () => checkAnimation()
-
 const props = defineProps<{
   year: number,
 }>()
@@ -61,7 +59,6 @@ const props = defineProps<{
   width: 100%;
   display: flex;
   justify-content: center;
-  /*background-color: orange;*/
   margin: 30px 0;
   align-items: center;
   font-weight: 600;
@@ -70,7 +67,6 @@ const props = defineProps<{
   top: 0;
   z-index: 80;
   background-color: white;
-  /*box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;*/
 }
 
 
