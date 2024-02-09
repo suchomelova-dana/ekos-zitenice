@@ -14,7 +14,7 @@
           <div  class="icon">
             <font-awesome-icon v-if="contact.icon" :icon="['fas', contact.icon]" />
           </div>
-          <div class="title">{{contact.title}}:</div>
+          <div class="title">{{contact.title}}::</div>
           <div class="value">{{contact.value}}</div>
         </div>
       </div>
