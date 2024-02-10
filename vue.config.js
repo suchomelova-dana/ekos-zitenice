@@ -1,5 +1,4 @@
 module.exports = {
-    publicPath: '/ekos-zitenice/',
-    assetsDir: './'
+    // publicPath: '/ekos-zitenice/',
 }
 
