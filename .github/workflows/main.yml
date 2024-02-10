@@ -5,19 +5,17 @@ on:
       - master
   workflow_dispatch:
 jobs:
-  build_vue:
+  build_deploy_vue:
     runs-on: ubuntu-latest
-    name: Build Vue
+    name: Build and Deploy Vue
     steps:
       - uses: actions/checkout@v2
-      - id: Build-Vue
-        uses: LizAinslie/VueBuildToBranchAction@1.0.2
+      - id: Build-Deploy-Vue
+        uses: thefrustrateddev/vue-deploy-github-pages@v1.0.0
         with:
           username: 'suchomelova-dana'
           reponame: 'ekos-zitenice'
-          token: ${{ secrets.GITHUB_TOKEN }} # Leave this line unchanged
-          branch: 'gh-pages' # defaults to 'gh-pages' but can be changed
-
+          token: ${{ secrets.GITHUB_TOKEN }} # no need to change this line this is used to create the branch in your application repository
 
 #name: Build Vue
 #on:
