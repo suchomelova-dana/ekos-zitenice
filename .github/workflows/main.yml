@@ -8,7 +8,8 @@ jobs:
   build_deploy_vue:
     runs-on: ubuntu-latest
     name: Build and Deploy Vue
-    steps: yarn deploy
+    steps:
+      run: yarn deploy
 
 #      - uses: actions/checkout@v2
 #      - id: Build-Deploy-Vue
