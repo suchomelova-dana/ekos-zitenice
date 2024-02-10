@@ -1,5 +1,5 @@
 module.exports = {
-    base: process.env.NODE_ENV === 'production' ? '/ekos-zitenice/' : '/',
+    publicPath: process.env.NODE_ENV === 'production' ? '/ekos-zitenice/' : '/',
 
 }
 
