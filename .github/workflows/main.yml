@@ -1,20 +1,39 @@
 name: Build Vue
-on:
-  push:
-    branches:
-      - master
-  workflow_dispatch:
-
+on: [push]
 jobs:
   build_vue:
     runs-on: ubuntu-latest
     name: Build Vue
     steps:
       - uses: actions/checkout@v2
-
       - id: Build-Vue
-        uses: xRealNeon/VuePagesAction@1.0.0
+        uses: LizAinslie/VueBuildToBranchAction@1.0.2
         with:
           username: 'suchomelova-dana'
           reponame: 'ekos-zitenice'
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }} # Leave this line unchanged
+          branch: 'gh-pages' # defaults to 'gh-pages' but can be changed
+
+
+#name: Build Vue
+#on:
+#  push:
+#    branches:
+#      - master
+#  workflow_dispatch:
+#
+#jobs:
+#  build_vue:
+#    runs-on: ubuntu-latest
+#    name: Build Vue
+#    steps:
+#      - uses: actions/checkout@v2
+#
+#      - id: Build-Vue
+#        uses: xRealNeon/VuePagesAction@1.0.0
+#        with:
+#          username: 'suchomelova-dana'
+#          reponame: 'ekos-zitenice'
+#          token: ${{ secrets.GITHUB_TOKEN }}
+
+
