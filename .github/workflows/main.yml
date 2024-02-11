@@ -8,7 +8,9 @@ jobs:
   build_deploy_vue:
     runs-on: ubuntu-latest
     name: Build and Deploy Vue
-    run: yarn deploy
+    steps:
+      - id: Build-And-Deploy
+        run: yarn deploy
 
 
 
