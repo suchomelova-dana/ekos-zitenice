@@ -1,24 +1,28 @@
-name: Build Vue
-on:
-  push:
-    branches:
-      - master
-  workflow_dispatch:
-jobs:
-  build_deploy_vue:
-    runs-on: ubuntu-latest
-    name: Build and Deploy Vue
-    steps:
-      - uses: actions/checkout@v2
-      - id: Build-Deploy-Vue
-        uses: thefrustrateddev/vue-deploy-github-pages@v1.0.0
-        with:
-          username: 'suchomelova-dana'
-          reponame: 'ekos-zitenice'
-          token: ${{ secrets.GITHUB_TOKEN }} # no need to change this line this is used to create the branch in your application repository
+#name: Build Vue
+#on:
+#  push:
+#    branches:
+#      - master
+#  workflow_dispatch:
+#jobs:
+#  build_deploy_vue:
+#    runs-on: ubuntu-latest
+#    name: Build and Deploy Vue
 
-      - id: Create-CNAME
-        run: echo 'ekos-zitenice.cz' > CNAME
+
+
+
+#    steps:
+#      - uses: actions/checkout@v2
+#      - id: Build-Deploy-Vue
+#        uses: thefrustrateddev/vue-deploy-github-pages@v1.0.0
+#        with:
+#          username: 'suchomelova-dana'
+#          reponame: 'ekos-zitenice'
+#          token: ${{ secrets.GITHUB_TOKEN }} # no need to change this line this is used to create the branch in your application repository
+#
+#      - id: Create-CNAME
+#        run: echo 'ekos-zitenice.cz' > CNAME
 
 
 
