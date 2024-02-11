@@ -9,6 +9,8 @@ jobs:
     runs-on: ubuntu-latest
     name: Build and Deploy Vue
     steps:
+      - uses: actions/checkout@v2
+
       - id: Build-And-Deploy
         run: yarn deploy
 
