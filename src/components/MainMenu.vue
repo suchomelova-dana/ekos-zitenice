@@ -1,9 +1,9 @@
 <template>
   <nav v-show="!mobile || mobileMenuOpened">
-    <router-link to="/equipment" @click="handleClick">Strojní vybavení</router-link>
-    <router-link to="/machineRental" @click="handleClick">Pronájem strojů</router-link>
-    <router-link to="/historyOfConstructions" @click="handleClick">Historie staveb</router-link>
-    <router-link to="/contacts" @click="handleClick">Kontakty</router-link>
+    <router-link to="/strojni-vybaveni" @click="handleClick">Strojní vybavení</router-link>
+    <router-link to="/pronajem-stroju" @click="handleClick">Pronájem strojů</router-link>
+    <router-link to="/historie-staveb" @click="handleClick">Historie staveb</router-link>
+    <router-link to="/kontakty" @click="handleClick">Kontakty</router-link>
   </nav>
 
 </template>

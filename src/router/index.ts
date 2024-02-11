@@ -8,23 +8,23 @@ const routes: Array<RouteRecordRaw> = [
     component: () => import ('../views/HomePage.vue')
   },
   {
-    path: '/equipment',
-    name: 'equipment',
+    path: '/strojni-vybaveni',
+    name: 'strojni-vybaveni',
     component: () => import ('../views/EquipmentPage.vue')
   },
   {
-    path: '/machineRental',
-    name: 'machineRental',
+    path: '/pronajem-stroju',
+    name: 'pronajem-stroju',
     component: () => import ('../views/MachineRentalPage.vue')
   },
   {
-    path: '/historyOfConstructions',
-    name: 'historyOfConstructions',
+    path: '/historie-staveb',
+    name: 'historie-staveb',
     component: () => import ('../views/HistoryOfConstructionsPage.vue')
   },
   {
-    path: '/contacts',
-    name: 'contacts',
+    path: '/kontakty',
+    name: 'kontakty',
     component: () => import ('../views/ContactsPage.vue')
   },
 
