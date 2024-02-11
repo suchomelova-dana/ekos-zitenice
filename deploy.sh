@@ -21,6 +21,9 @@ git commit -m 'deploy'
 # if you are deploying to https://<USERNAME>.github.io
 # git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git main
 
+git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+git config --local user.name "github-actions[bot]"
+
 # if you are deploying to https://<USERNAME>.github.io/<REPO>
 git push -f git@github.com:suchomelova-dana/ekos-zitenice.git main:gh-pages
 
