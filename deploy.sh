@@ -15,7 +15,7 @@ cd dist
 echo 'ekos-zitenice.cz' > CNAME
 
 git init
-git add -A
+git add .
 git commit -m 'deploy'
 
 # if you are deploying to https://<USERNAME>.github.io
