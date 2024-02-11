@@ -1,24 +1,51 @@
-name: Build Vue
+name: Deploy to github pages
 on:
-  push:
-    branches:
-      - master
-  workflow_dispatch:
+    push:
+      branches:
+        - master
 jobs:
-  build_deploy_vue:
-    runs-on: ubuntu-latest
-    permissions:
-      contents: read
-      pull-requests: write
-    name: Build and Deploy Vue
-    steps:
-      - uses: actions/checkout@v2
+    gh-pages-deploy:
+      name: Deploying to gh-pages
+      runs-on: ubuntu-latest
+      steps:
+        - name: Setup Node.js for use with actions
+          uses: actions/setup-node@v2
+          with:
+            version:  12.x
+        - name: Checkout branch
+          uses: actions/checkout@v2
 
-      - id: Build-And-Deploy
-        run: |
-            git config --global user.email "danka.suchomelova@seznam.cz" 
-            git config --global user.name "suchomelova-dana"
-            npm run deploy
+        - name: Clean install dependencies
+          run: npm ci
+
+        - name: Run deploy script
+          run: |
+            git config user.name "suchomelova-dana" && git config user.email "danka.suchomelova@seznam.cz"
+            npm run gh-pages-deploy
+
+
+
+#name: Build Vue
+#on:
+#  push:
+#    branches:
+#      - master
+#  workflow_dispatch:
+#jobs:
+#  build_deploy_vue:
+#    runs-on: ubuntu-latest
+#    permissions:
+#      contents: read
+#      pull-requests: write
+#    name: Build and Deploy Vue
+#    steps:
+#      - uses: actions/checkout@v2
+#
+#      - id: Build-And-Deploy
+#        run: |
+#            git config --global user.email "danka.suchomelova@seznam.cz"
+#            git config --global user.name "suchomelova-dana"
+#            npm run deploy
 
 
 
