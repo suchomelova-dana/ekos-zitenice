@@ -23,6 +23,6 @@ git commit -m 'deploy'
 
 # if you are deploying to https://<USERNAME>.github.io/<REPO>
 git remote add origin master:gh-pages
-git push -f git@github.com:suchomelova-dana/ekos-zitenice.git main:gh-pages
+git push -f git@github.com:suchomelova-dana/ekos-zitenice.git main:pages-test
 
 cd -
