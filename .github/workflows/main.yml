@@ -9,15 +9,17 @@ jobs:
     runs-on: ubuntu-latest
     name: Build and Deploy Vue
     steps:
-      run: yarn deploy
+      - uses: actions/checkout@v2
+      - id: Build-Deploy-Vue
+        uses: thefrustrateddev/vue-deploy-github-pages@v1.0.0
+        with:
+          username: 'suchomelova-dana'
+          reponame: 'ekos-zitenice'
+          token: ${{ secrets.GITHUB_TOKEN }} # no need to change this line this is used to create the branch in your application repository
 
-#      - uses: actions/checkout@v2
-#      - id: Build-Deploy-Vue
-#        uses: thefrustrateddev/vue-deploy-github-pages@v1.0.0
-#        with:
-#          username: 'suchomelova-dana'
-#          reponame: 'ekos-zitenice'
-#          token: ${{ secrets.GITHUB_TOKEN }} # no need to change this line this is used to create the branch in your application repository
+      - id: Create CNAME
+        run: echo 'ekos-zitenice.cz' > CNAME
+
 
 
 
