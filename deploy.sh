@@ -21,7 +21,7 @@ git commit -m 'deploy'
 # if you are deploying to https://<USERNAME>.github.io
 # git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git main
 
-git remote add rigin git@github.com:suchomelova-dana/ekos-zitenice.git main:pages-test
+git remote add rigin git@github.com:suchomelova-dana/ekos-zitenice.git
 
 # if you are deploying to https://<USERNAME>.github.io/<REPO>
 git push -f git@github.com:suchomelova-dana/ekos-zitenice.git main:pages-test
