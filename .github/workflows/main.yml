@@ -16,8 +16,8 @@ jobs:
 
       - id: Build-And-Deploy
         run: |
-            git config --local user.email "danka.suchomelova@seznam.cz" 
-            git config --local user.name "suchomelova-dana"
+            git config --global user.email "danka.suchomelova@seznam.cz" 
+            git config --global user.name "suchomelova-dana"
             npm run deploy
 
 
