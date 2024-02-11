@@ -26,6 +26,8 @@ jobs:
           run: |
             git config user.name "suchomelova-dana" && git config user.email "danka.suchomelova@seznam.cz"
             npm run gh-pages-deploy
+          clean-exclude: |
+            CNAME
 
 
 
