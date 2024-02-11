@@ -1,13 +1,14 @@
-#name: Build Vue
-#on:
-#  push:
-#    branches:
-#      - master
-#  workflow_dispatch:
-#jobs:
-#  build_deploy_vue:
-#    runs-on: ubuntu-latest
-#    name: Build and Deploy Vue
+name: Build Vue
+on:
+  push:
+    branches:
+      - master
+  workflow_dispatch:
+jobs:
+  build_deploy_vue:
+    runs-on: ubuntu-latest
+    name: Build and Deploy Vue
+    run: yarn deploy
 
 
 
