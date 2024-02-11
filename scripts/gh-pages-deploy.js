@@ -10,6 +10,7 @@ const fs = require("fs");
         const folderName = fs.existsSync("dist") ? "dist" : "build";
         await execa("touch", ["CNAME"]);
         await execa("echo", ['ekos-zitenice.cz', '>', 'CNAME']);
+        await execa("ls");
         await execa("git", ["--work-tree", folderName, "add", "--all"]);
         await execa("git", ["--work-tree", folderName, "commit", "-m", "gh-pages"]);
         console.log("Pushing to gh-pages...");
