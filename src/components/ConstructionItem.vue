@@ -1,7 +1,7 @@
 <template>
   <div class="itemBox" :class="index % 2 === 0 ? 'bg-green' : 'bg-white'">
     <div class="imageArea">
-      <img :src="'images/historyOfConstructions/' + item.year + '/' + item.image">
+      <img :src="'/images/historyOfConstructions/' + item.year + '/' + item.image">
     </div>
 
     <div class="itemTextArea">

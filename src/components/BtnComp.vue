@@ -1,7 +1,6 @@
 <template>
   <a :href="href" target="_blank">
-    <button>{{ btnText }}</button>
-
+    <button :class="{'uppercase': uppercase}">{{ btnText }}</button>
   </a>
 </template>
 
@@ -9,15 +8,20 @@
 
 import {defineProps} from 'vue'
 
-const props = defineProps({
+defineProps({
   btnText: String,
   href: String,
+  uppercase: Boolean
 })
 
 
 </script>
 
 <style scoped>
+
+.uppercase{
+  text-transform: uppercase;
+}
 
 button{
   padding: 10px 20px;

@@ -9,7 +9,7 @@
   <div class="hiringArea">
     <div class="hiringBox">
       <p>Hledáme nové spolupracovníky !!!</p>
-      <BtnComp btnText="Volné pozice" href="PDFs/volna_mista.pdf"></BtnComp>
+      <BtnComp btnText="Volné pozice" href="/PDFs/volna_mista.pdf"></BtnComp>
     </div>
   </div>
 
@@ -19,7 +19,7 @@
       <img src="../../public/images/homepage/zitenice-building.png" alt="" class="imageShadow">
       <div class="box">
         <p>Organizace EKOS-Žitenice s.r.o. je ryze českou vodohospodářskou společností s 30ti letou historií, s vlastním vybavením v řádech desítek mil. Kč a s celkovým počtem cca 50 zaměstnanců.</p>
-        <a href="PDFs/struktura_spolecnosti.pdf" target="_blank">Organizační struktura společnosti</a>
+        <a href="/PDFs/struktura_spolecnosti.pdf" target="_blank">Organizační struktura společnosti</a>
       </div>
     </div>
   </div>
@@ -62,7 +62,7 @@
         </div>
       </div>
       <div class="imageArea">
-        <img src="../../public/images/historyOfConstructions/2016/2016-PrahaMecholupyKaufland.jpg" alt="" class="imageShadow">
+        <img src="/images/historyOfConstructions/2016/2016-PrahaMecholupyKaufland.jpg" alt="" class="imageShadow">
       </div>
     </div>
 

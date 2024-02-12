@@ -2,13 +2,13 @@
 
   <div class="itemArea">
     <div class="itemImage" v-if="windowWidth >= 673" :class="{'bg-white': !equipment.image}">
-      <img :src="'images/equipment/' + equipment.image" alt="" v-if="equipment.image" loading="lazy">
+      <img :src="'/images/equipment/' + equipment.image" alt="ahoj" v-if="equipment.image" loading="lazy">
     </div>
 
     <div class="text">
       <h3>{{equipment.name}}</h3>
       <div class="itemImage" v-if="windowWidth <= 672">
-        <img :src="'equipment/' + equipment.image" alt="" v-if="equipment.image" loading="lazy">
+        <img :src="'/images/equipment/' + equipment.image" alt="ahoj" v-if="equipment.image" loading="lazy">
       </div>
       <div class="paragraph">
         <div class="rectangle" v-if="equipment.description !== ''"/>

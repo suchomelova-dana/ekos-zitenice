@@ -25,7 +25,7 @@
         <div class="heading">Kde nás najdete</div>
         <div class="locationCenter">
           <div class="locationImage">
-            <img src="../../public/images/contacts/map.png" alt="">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2534.957654620994!2d14.15364111214318!3d50.55355747149356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47097f24d547685f%3A0x63e95b02c7a5416d!2sEKOS-%C5%BDitenice%20s.r.o.!5e0!3m2!1scs!2sit!4v1707759748132!5m2!1scs!2sit" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
           <BtnComp btn-text="Otevřít v mapách Google" href="https://maps.app.goo.gl/sL7R2TRUU3KXasZ66"></BtnComp>
         </div>
@@ -40,6 +40,8 @@
         <span class="mailAdress">oznamovaci.linka@ekos-zitenice.cz</span>
       </div>
     </div>
+
+
 
 
 

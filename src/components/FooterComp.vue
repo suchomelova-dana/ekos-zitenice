@@ -5,18 +5,18 @@
         <p>Naše společnost zajišťuje kvalitu poskytovaných služeb a ochranu životního prostředí formou tzv. integrovaného systému a jsme tedy držiteli certifikátů již dle nových norem "2016":</p>
         <div class="buttonsArea">
           <div class="btnSet">
-            <BtnComp btn-text="Čsn en iso 14001:2016" href="PDFs/ISO_14001.pdf"></BtnComp>
-            <BtnComp btn-text="Čsn en iso 9001:2016" href="PDFs/ISO_9001.pdf"></BtnComp>
+            <BtnComp btn-text="Čsn en iso 14001:2016" href="/PDFs/ISO_14001.pdf" uppercase></BtnComp>
+            <BtnComp btn-text="Čsn en iso 9001:2016" href="/PDFs/ISO_9001.pdf" uppercase></BtnComp>
           </div>
         </div>
       </div>
       <div class="imageArea">
-        <img class="ISOimg" src="../../public/images/homepage/ISO.png" alt="">
+        <img class="ISOimg" src="/images/homepage/ISO.png" alt="">
       </div>
     </div>
 
     <div class="right box">
-      <p>Zde si také můžete přečíst <a href="PDFs/politika_kvality.pdf" target="_blank">Politiku kvality a environmentu</a> naší organizace</p>
+      <p>Zde si také můžete přečíst <a href="/PDFs/politika_kvality.pdf" target="_blank">Politiku kvality a environmentu</a> naší organizace</p>
     </div>
   </div>
 </template>
@@ -27,6 +27,7 @@ import BtnComp from "@/components/BtnComp.vue";
 </script>
 
 <style scoped>
+
 .footer{
   width: 100%;
   display: flex;

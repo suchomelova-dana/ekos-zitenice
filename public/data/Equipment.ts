@@ -1,6 +1,4 @@
-import {Equipment} from "../../src/interfaces/Interfaces";
-
-
+import {Equipment} from "@/interfaces/Interfaces";
 
 const equipmentArr : Equipment[] = [
     {
