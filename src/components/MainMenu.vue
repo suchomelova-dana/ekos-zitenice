@@ -1,10 +1,12 @@
 <template>
-  <nav v-show="!mobile || mobileMenuOpened">
-    <router-link to="/strojni-vybaveni" @click="handleClick">Strojní vybavení</router-link>
-    <router-link to="/pronajem-stroju" @click="handleClick">Pronájem strojů</router-link>
-    <router-link to="/historie-staveb" @click="handleClick">Historie staveb</router-link>
-    <router-link to="/kontakty" @click="handleClick">Kontakty</router-link>
-  </nav>
+  <transition name="slide">
+    <nav v-show="!mobile || mobileMenuOpened">
+      <router-link to="/strojni-vybaveni" @click="handleClick">Strojní vybavení</router-link>
+      <router-link to="/pronajem-stroju" @click="handleClick">Pronájem strojů</router-link>
+      <router-link to="/historie-staveb" @click="handleClick">Historie staveb</router-link>
+      <router-link to="/kontakty" @click="handleClick">Kontakty</router-link>
+    </nav>
+  </transition>
 
 </template>
 
@@ -64,13 +66,13 @@ nav a{
 @media only screen and (max-width: 672px) {
   nav{
     width: 100%;
-    padding: 10vh 10px;
+    padding: 15vh 10px;
     flex-direction: column;
     height: 100vh;
     position: absolute !important;
     top: 0;
     left: 0;
-    animation: slide-from-right 0.5s;
+    /*animation: slide-from-right 0.5s ease-in-out;*/
   }
 
   nav a{
@@ -78,6 +80,15 @@ nav a{
     font-weight: 600;
     font-size: 17px;
   }
+
+  .slide-enter-active, .slide-leave-active {
+    transition: transform 0.5s ease-in-out;
+  }
+
+  .slide-enter-from, .slide-leave-to{
+    transform: translateX(100%);
+  }
+
 }
 
 /* Tablets */
