@@ -224,6 +224,7 @@ function getFile(){
 
   .realizujemeArea .darkGreenArea{
     background-image: linear-gradient( rgba(7, 125, 6, 0.9), rgba(7, 125, 6, 0.9) ), url("../../public/foto/vybavení/09.jpg") ;
+    background-size: cover;
     /*min-height: 500px;*/
     width: 65%;
     gap: 20px;
