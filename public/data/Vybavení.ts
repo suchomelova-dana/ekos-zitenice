@@ -201,12 +201,6 @@ const equipmentArr : Equipment[] = [
         tags: ['podkop šíře 40-80 cm', 'váha 3t'],
         image: '19.jpg'
     },
-    {
-        name: 'KOMATSU PC 30 MR-3',
-        description: 'pásový minibagr s prodlouženým výložníkem a zkrácenou zádí (vhodné pro práci v zastavěném území), gumovými pásy, ofsetem, rychloupínačem',
-        tags: ['podkop šíře 40-80 cm', 'váha 3t'],
-        image: '19.jpg'
-    },
 
 ]
 
