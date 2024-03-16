@@ -3,7 +3,7 @@ import {Contact} from "../../src/interfaces/Interfaces";
 const ContactArray : Contact[] = [
     {
         title: 'Obchodní jméno',
-        value: 'Ekos-Žitenice s.r.o.'
+        value: 'EKOS-Žitenice s.r.o.'
     },
     {
         title: 'Adresa a sídlo firmy',

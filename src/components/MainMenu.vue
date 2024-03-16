@@ -1,12 +1,10 @@
 <template>
-  <transition name="slide">
-    <nav v-show="!mobile || mobileMenuOpened">
+    <nav v-show="props.mobileMenuOpened || !props.mobile">
       <router-link to="/strojni-vybaveni" @click="handleClick">Strojní vybavení</router-link>
       <router-link to="/pronajem-stroju" @click="handleClick">Pronájem strojů</router-link>
       <router-link to="/historie-staveb" @click="handleClick">Historie staveb</router-link>
       <router-link to="/kontakty" @click="handleClick">Kontakty</router-link>
     </nav>
-  </transition>
 
 </template>
 
@@ -25,6 +23,7 @@ function handleClick(){
     emit('routerClick')
   }
 }
+
 
 </script>
 
@@ -61,7 +60,6 @@ nav a{
 }
 
 
-
 /* Phones */
 @media only screen and (max-width: 672px) {
   nav{
@@ -72,21 +70,12 @@ nav a{
     position: absolute !important;
     top: 0;
     left: 0;
-    /*animation: slide-from-right 0.5s ease-in-out;*/
   }
 
   nav a{
     padding: 5px 10px;
     font-weight: 600;
     font-size: 17px;
-  }
-
-  .slide-enter-active, .slide-leave-active {
-    transition: transform 0.5s ease-in-out;
-  }
-
-  .slide-enter-from, .slide-leave-to{
-    transform: translateX(100%);
   }
 
 }

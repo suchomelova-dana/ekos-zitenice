@@ -6,7 +6,6 @@
       <h2>Pronájem strojů</h2>
       <h3>s obsluhou</h3>
       <div class="image">
-<!--        <img src="" alt="">-->
         <img src="../../public/images/historyOfConstructions/2016/2016-Zatec.jpg" alt="">
       </div>
       <BtnComp btn-text="Ceník" href="PDFs/pronajem_stroju_s_obsluhou.pdf" uppercase></BtnComp>
@@ -74,8 +73,8 @@ import BtnComp from "@/components/BtnComp.vue";
 }
 
 .box .image{
-  height: 200px;
-  width: 100%;
+  height: 250px;
+  width: 80%;
   margin: 20px;
   background-color: whitesmoke;
   display: inline-block;

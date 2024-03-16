@@ -1,7 +1,7 @@
 <template>
 
-  <div class="itemArea">
-    <div class="itemImage" v-if="windowWidth >= 673" :class="{'bg-white': !equipment.image}">
+  <div class="itemArea" :class="index % 2 === 0 ? 'bg-green' : 'bg-white'">
+    <div class="itemImage" v-if="windowWidth >= 673" :class="{'background-white': !equipment.image}">
       <img :src="'/images/equipment/' + equipment.image" alt="ahoj" v-if="equipment.image" loading="lazy">
     </div>
 
@@ -29,7 +29,8 @@ import {defineProps, onMounted, ref} from 'vue'
 import BtnComp from "@/components/BtnComp.vue";
 
 defineProps<{
-  equipment: Equipment
+  equipment: Equipment,
+  index: number,
 }>()
 
 
@@ -54,16 +55,25 @@ function handleResize(){
   justify-content: start;
   align-items: center;
   gap: 70px;
+  padding: 40px 10%;
+}
+
+.bg-green{
+  background-color: #EAF3E9;
 }
 
 .bg-white{
+  background-color: white;
+}
+
+.background-white{
   background-color: white !important;
   height: 0 !important;
 }
 
 .itemArea .itemImage{
-  height: 300px;
-  width: 400px;
+  height: 250px;
+  width: 340px;
   background-color: whitesmoke;
 }
 

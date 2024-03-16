@@ -14,7 +14,7 @@
           <div  class="icon">
             <font-awesome-icon v-if="contact.icon" :icon="['fas', contact.icon]" />
           </div>
-          <div class="title">{{contact.title}}::</div>
+          <div class="title">{{contact.title}}:</div>
           <div class="value">{{contact.value}}</div>
         </div>
       </div>
@@ -170,8 +170,7 @@ import BtnComp from "@/components/BtnComp.vue";
   padding-bottom: 10px;
 }
 
-.location .locationContent img{
-  height: 100%;
+.location .locationContent iframe{
   width: 100%;
   object-fit: cover;
 }

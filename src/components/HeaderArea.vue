@@ -1,33 +1,45 @@
 <template>
 
   <div style="position: relative">
-  <div class="logoArea">
-    <router-link to="/">
-      <img src='../../public/images/homepage/logo.jpg' alt="logo" id="logoImg">
-    </router-link>
+    <div class="logoArea">
+      <router-link to="/">
+        <img src='../../public/images/homepage/logo.jpg' alt="logo" id="logoImg">
+      </router-link>
 
-    <div class="burgerIconArea" v-if="mobile" @click="$emit('change')">
-      <font-awesome-icon v-show="!mobileMenuOpened" :icon="['fas', 'bars']" class="icon"/>
-      <font-awesome-icon v-show="mobileMenuOpened" :icon="['fas', 'xmark']" color="white" class="icon"/>
+      <div class="burgerIconArea">
+        <i @click="$emit('change')" v-if="props.mobile" class="icon">
+          <div id="bar1" class="bars" :class="{'bar1-active' : props.mobileMenuOpened}"></div>
+          <div id="bar2" class="bars" :class="{'bar2-active' : props.mobileMenuOpened}"></div>
+          <div id="bar3" class="bars" :class="{'bar3-active' : props.mobileMenuOpened}"></div>
+        </i>
+      </div>
+    </div>
+
+
+    <div v-if="mobile">
+      <Transition name="mobile-nav" >
+        <MainMenu class="menuArea" :mobile="props.mobile" :mobileMenuOpened="props.mobileMenuOpened" @routerClick="$emit('change')"></MainMenu>
+      </Transition>
+    </div>
+
+    <div v-if="!mobile">
+      <MainMenu class="menuArea" :mobile="props.mobile" :mobileMenuOpened="props.mobileMenuOpened" @routerClick="$emit('change')"></MainMenu>
     </div>
 
   </div>
-  <MainMenu class="menuArea" :mobile="props.mobile" :mobileMenuOpened="props.mobileMenuOpened" @routerClick="$emit('change')"></MainMenu>
-
-  </div>
-
-
 </template>
 
 <script setup lang="ts">
 
 import MainMenu from "@/components/MainMenu.vue";
-import { defineProps, defineEmits } from 'vue'
+import {defineProps, defineEmits, onMounted} from 'vue'
 
 const props = defineProps<{
   mobile: boolean,
   mobileMenuOpened: boolean
 }>()
+
+console.log('mobileMenuOpened: ' + props.mobileMenuOpened)
 
 defineEmits(['change',])
 
@@ -54,6 +66,7 @@ defineEmits(['change',])
   display: flex;
   justify-content: center;
   align-items: center;
+  /*background-color: red;*/
 }
 
 .burgerIconArea .icon{
@@ -71,6 +84,7 @@ defineEmits(['change',])
 @media only screen and (max-width: 672px) {
   .menuArea{
     position: relative;
+    ovrflow: hidden;
   }
 }
 
@@ -83,10 +97,55 @@ defineEmits(['change',])
 
 /* Laptops */
 @media only screen and (min-width: 991px) {
-  .menuArea{
+  .menuArea {
     position: absolute;
     top: 60px;
     right: 0;
   }
 }
+
+
+.burgerIconArea i {
+  cursor: pointer;
+  font-size: 24px;
+  transition: 0.8s ease all;
+}
+
+.bar1-active {
+  transform: rotate(-44deg) translate(-6px,7px);
+  background-color: white !important;
+}
+
+.bar2-active {
+  opacity: 0%;
+}
+
+.bar3-active {
+  transform: rotate(45deg) translate(-6px,-7px);
+  background-color: white !important;
+}
+
+.bars {
+  width: 25px;
+  height: 2px;
+  border-radius: 25px;
+  background-color: black;
+  margin: 7px;
+  transition: 0.4s;
+}
+
+.mobile-nav-enter-active,
+.mobile-nav-leave-active{
+  transition: 1s ease all;
+}
+
+.mobile-nav-enter-from,
+.mobile-nav-leave-to{
+  transform: translateX(1000px);
+}
+
+.mobile-nav-enter-to{
+  transform: translateX(0);
+}
+
 </style>

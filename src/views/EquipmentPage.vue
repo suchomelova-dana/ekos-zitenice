@@ -1,7 +1,7 @@
 <template>
   <HeadingBanner heading="Strojní vybavení"/>
   <div class="equipmentItems">
-    <EquipmentItem v-for="item in equipmentArr" :equipment="item" :key="item.name"/>
+    <EquipmentItem v-for="(item, index) in equipmentArr" :equipment="item" :key="item.name" :index="index"/>
   </div>
   <ScrollArrow/>
 
@@ -20,8 +20,9 @@ import ScrollArrow from "@/components/ScrollArrow.vue";
 .equipmentItems{
   display: flex;
   flex-direction: column;
-  gap: 40px;
-  padding: 60px 10%;
+  /*gap: 40px;*/
+  padding: 60px 0;
+  /*padding: 60px 10%;*/
 }
 
 /* Phones */

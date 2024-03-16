@@ -1,9 +1,11 @@
 <template>
-  <HeaderArea @change="changeMobileMenuOpenedState" :mobile="mobile" :mobileMenuOpened="mobileMenuOpened"/>
-  <div class="contentArea" v-show="!mobile || !mobileMenuOpened ">
-    <router-view/>
+  <div :class="{'bodyMaxHeight': mobileMenuOpened}">
+    <HeaderArea @change="changeMobileMenuOpenedState" :mobile="mobile" :mobileMenuOpened="mobileMenuOpened"/>
+    <div class="contentArea" :class="{'maxHeight': mobileMenuOpened}">
+      <router-view/>
+    </div>
+    <CopyRight/>
   </div>
-  <CopyRight/>
 </template>
 
 
@@ -12,7 +14,7 @@ import HeaderArea from "@/components/HeaderArea";
 import CopyRight from "@/components/CopyRight";
 import {onMounted, ref} from "vue";
 
-const mobile = ref<boolean>(false)
+const mobile = ref<boolean>(true)
 const mobileMenuOpened = ref(false)
 
 onMounted(() => {
@@ -32,6 +34,7 @@ function checkScreen(){
 function changeMobileMenuOpenedState(){
   mobileMenuOpened.value = !mobileMenuOpened.value
 }
+
 </script>
 
 <style>
@@ -56,6 +59,18 @@ function changeMobileMenuOpenedState(){
   background-color: white;
   min-height: calc(100vh - 70px - 40px);
   padding-top: 20px;
+}
+
+.maxHeight{
+  max-height: calc(100vh - 70px);
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.bodyMaxHeight{
+  max-height: 100vh;
+  max-width: 100%;
+  overflow: hidden;
 }
 
 /* Phones */
