@@ -780,6 +780,16 @@ const ConstructionsArr : Construction[] = [
         year: 2021,
         image: '2021-HoleVrchy.jpg'
     },
+    // 2022 -------------------------------------------------------------
+     {
+        name: '',
+        description: '',
+        cost: '',
+        date: '',
+        customer: '',
+        year: 2022,
+        image: ''
+    },
 ]
 
 export default ConstructionsArr
