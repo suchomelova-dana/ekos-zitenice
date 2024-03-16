@@ -9,7 +9,7 @@
 <script setup lang="ts">
 import HeadingBanner from "@/components/HeadingBanner.vue";
 import ConstructionsOfOneYear from "@/components/ConstructionsOfOneYear.vue";
-import ConstructionsArr from "../../public/data/HistoryOfConstructions";
+import ConstructionsArr from "../../public/data/Stavby";
 import ScrollArrow from "@/components/ScrollArrow.vue";
 
 const currentYear = new Date().getFullYear();

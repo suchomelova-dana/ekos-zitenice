@@ -16,7 +16,7 @@
   <div class="oFirmeArea">
     <h3>O firmě</h3>
     <div class="oFirmeContent">
-      <img src="../../public/images/homepage/zitenice-building.png" alt="" class="imageShadow">
+      <img src="../../public/foto/homepage/zitenice-building.png" alt="" class="imageShadow">
       <div class="box">
         <p>Organizace EKOS-Žitenice s.r.o. je ryze českou vodohospodářskou společností s 30ti letou historií, s vlastním vybavením v řádech desítek mil. Kč a s celkovým počtem cca 50 zaměstnanců.</p>
         <a href="/PDFs/struktura_spolecnosti.pdf" target="_blank">Organizační struktura společnosti</a>
@@ -62,7 +62,7 @@
         </div>
       </div>
       <div class="imageArea">
-        <img src="/images/historyOfConstructions/2016/2016-PrahaMecholupyKaufland.jpg" alt="" class="imageShadow">
+        <img src="/foto/stavby/2016/2016-PrahaMecholupyKaufland.jpg" alt="" class="imageShadow">
       </div>
     </div>
 
@@ -90,7 +90,7 @@ function getFile(){
   #imageArea{
     width: 100%;
     height: 500px;
-    background-image: linear-gradient(rgba(0,0,0,0) 30%, rgba(0,0,0,0.9)), url('../../public/images/homepage/landing_page.jpg');
+    background-image: linear-gradient(rgba(0,0,0,0) 30%, rgba(0,0,0,0.9)), url('../../public/foto/homepage/landing_page.jpg');
     background-repeat: no-repeat;
     background-size: cover ;
     background-position: center;
@@ -223,7 +223,7 @@ function getFile(){
   }
 
   .realizujemeArea .darkGreenArea{
-    background-image: linear-gradient( rgba(7, 125, 6, 0.9), rgba(7, 125, 6, 0.9) ), url("../../public/images/equipment/09.jpg") ;
+    background-image: linear-gradient( rgba(7, 125, 6, 0.9), rgba(7, 125, 6, 0.9) ), url("../../public/foto/vybavení/09.jpg") ;
     /*min-height: 500px;*/
     width: 65%;
     gap: 20px;

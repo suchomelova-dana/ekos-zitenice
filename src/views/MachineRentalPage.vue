@@ -6,7 +6,7 @@
       <h2>Pronájem strojů</h2>
       <h3>s obsluhou</h3>
       <div class="image">
-        <img src="../../public/images/historyOfConstructions/2016/2016-Zatec.jpg" alt="">
+        <img src="../../public/foto/stavby/2016/2016-Zatec.jpg" alt="">
       </div>
       <BtnComp btn-text="Ceník" href="PDFs/pronajem_stroju_s_obsluhou.pdf" uppercase></BtnComp>
     </a>
@@ -15,7 +15,7 @@
       <h2>Pronájem strojů</h2>
       <h3>bez obsluhy</h3>
       <div class="image">
-          <img src="../../public/images/equipment/40.jpg" alt="">
+          <img src="../../public/foto/vybavení/40.jpg" alt="">
       </div>
       <BtnComp btn-text="Ceník" href="PDFs/pronajem_stroju_s_obsluhou.pdf" uppercase></BtnComp>
     </a>

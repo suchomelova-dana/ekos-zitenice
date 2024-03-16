@@ -11,7 +11,7 @@
         </div>
       </div>
       <div class="imageArea">
-        <img class="ISOimg" src="/images/homepage/ISO.png" alt="">
+        <img class="ISOimg" src="/foto/homepage/ISO.png" alt="">
       </div>
     </div>
 

@@ -9,7 +9,7 @@
 <script setup lang="ts">
 import {defineProps, onMounted, ref} from 'vue'
 import ConstructionItem from "@/components/ConstructionItem.vue";
-import ConstructionsArr from "../../public/data/HistoryOfConstructions";
+import ConstructionsArr from "../../public/data/Stavby";
 import {Construction} from "@/interfaces/Interfaces";
 import {nextTick} from "vue";
 
@@ -32,16 +32,12 @@ onMounted(() => {
 
 
 function checkAnimation() {
-  console.log('animation')
-  console.log(items)
   for(let item of items){
-    console.log('ahoj')
     let top = window.scrollY;
     let offset = item.offsetTop;
     let height = item.offsetHeight;
 
     if(top >= (offset -500) && top < offset + height){
-      console.log('pridano')
       item.classList.add('show-animate')
     }
   }

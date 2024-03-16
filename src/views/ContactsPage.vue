@@ -40,17 +40,12 @@
         <span class="mailAdress">oznamovaci.linka@ekos-zitenice.cz</span>
       </div>
     </div>
-
-
-
-
-
   </div>
 </template>
 
 <script setup lang="ts">
 import HeadingBanner from "@/components/HeadingBanner.vue";
-import ContactArray from "../../public/data/Contacts";
+import ContactArray from "../../public/data/Kontakty";
 import BtnComp from "@/components/BtnComp.vue";
 
 </script>

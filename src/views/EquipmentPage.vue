@@ -10,7 +10,7 @@
 <script setup lang="ts">
 
 import EquipmentItem from "@/components/EquipmentItem.vue";
-import equipmentArr from "../../public/data/Equipment";
+import equipmentArr from "../../public/data/Vybavení";
 import HeadingBanner from "@/components/HeadingBanner.vue";
 import ScrollArrow from "@/components/ScrollArrow.vue";
 

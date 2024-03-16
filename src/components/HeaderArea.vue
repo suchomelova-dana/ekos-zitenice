@@ -3,7 +3,7 @@
   <div style="position: relative">
     <div class="logoArea">
       <router-link to="/">
-        <img src='../../public/images/homepage/logo.jpg' alt="logo" id="logoImg">
+        <img src='../../public/foto/homepage/logo.jpg' alt="logo" id="logoImg">
       </router-link>
 
       <div class="burgerIconArea">
