@@ -790,6 +790,15 @@ const ConstructionsArr : Construction[] = [
         year: 2022,
         image: '2022-Zatec.jpg'
     },
+    {
+        name: 'Praha – NOVÁ WALTROVKA INFRA',
+        description: 'Realizace ZP, vodovodu, kanalizace a plynu vč. přípojek',
+        cost: 'cca 19,7 mil.',
+        date: '04/2022 – 12/2023 ',
+        customer: 'Next Development, s.r.o.',
+        year: 2022,
+        image: '2022-WALT.jpg'
+    },
 ]
 
 export default ConstructionsArr
