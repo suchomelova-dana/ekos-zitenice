@@ -782,13 +782,13 @@ const ConstructionsArr : Construction[] = [
     },
     // 2022 -------------------------------------------------------------
      {
-        name: '',
-        description: '',
-        cost: '',
-        date: '',
-        customer: '',
+        name: 'Žatec – Nexen Tire Europe Factory – ph2',
+        description: 'Realizace přeložek kanalizace a vodovodu',
+        cost: 'cca 5,5 mil.',
+        date: '01 - 05/2022',
+        customer: 'STRABAG a.s.',
         year: 2022,
-        image: ''
+        image: '2022-Zatec.jpg'
     },
 ]
 
