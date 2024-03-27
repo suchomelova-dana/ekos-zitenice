@@ -835,6 +835,52 @@ const ConstructionsArr : Construction[] = [
         year: 2022,
         image: '2022-OSS.jpg'
     },
+     // 2023 -------------------------------------------------------------
+     {
+        name: 'Praha – Suchdol, ČZU - Dostavba FŽP',
+        description: 'Realizace mokřadního biotopu + MaR',
+        cost: 'cca 4,7 mil.',
+        date: '01 - 07/2023',
+        customer: 'ESOX, spol. s r.o.',
+        year: 2023,
+        image: '2023-Suchdol.jpg'
+    },
+     {
+        name: 'Jinočany – LOGPORT',
+        description: 'Realizace ZP a montáž vod. a kan.',
+        cost: 'cca 9,0 mil.',
+        date: '02 - 07/2023',
+        customer: 'POZIS-BAU s.r.o.',
+        year: 2023,
+        image: '2023-Jinocany.jpg'
+    },
+    {
+        name: 'Štětí - Mondi - EcoKraft',
+        description: 'Realizace ZP a přeložek vod. a kan.',
+        cost: 'cca 4,6 mil.',
+        date: '04 - 06/2023',
+        customer: 'Mondi Štětí a.s.',
+        year: 2023,
+        image: '2023-MONDI.jpg'
+    },
+    {
+        name: 'Kladno - Logport Poldi',
+        description: 'Realizace inženýrských sítí vč. ocelové retence DN 1200',
+        cost: 'cca 11,2 mil.',
+        date: '07 - 11/2023',
+        customer: 'POZIS-BAU s.r.o.',
+        year: 2023,
+        image: '2023-Kladno.jpg'
+    },
+    {
+        name: 'Litvínov - McDonald´s',
+        description: 'Realizace přeložky vodovodního potrubí DN 500',
+        cost: 'cca 2,7 mil.',
+        date: '10 - 12/2023',
+        customer: 'KK výstavby, spol s r.o.',
+        year: 2023,
+        image: '2023-Litvinov.jpg'
+    },
 ]
 
 export default ConstructionsArr
