@@ -799,6 +799,42 @@ const ConstructionsArr : Construction[] = [
         year: 2022,
         image: '2022-WALT.jpg'
     },
+    {
+        name: 'Chomutov – Nemocnice - Nový pavilon Emergency',
+        description: 'Realizace zemních prací',
+        cost: 'cca 11,5 mil.',
+        date: '04/2022 – 01/2023',
+        customer: 'I S T A R, společnost s ručením omezeným',
+        year: 2022,
+        image: '2022-NeCho.jpg'
+    },
+     {
+        name: 'Praha – Zahradní město',
+        description: 'Realizace přeložky kanalizace DN 1200',
+        cost: 'cca 16,1 mil.',
+        date: '07/2022 - 02/2023',
+        customer: 'Vivus Zahradní Město s.r.o.',
+        year: 2022,
+        image: '2022-ZahMesto.jpg'
+    },
+    {
+        name: 'Ústí nad Labem – Obchodní centrum Europe BAUHAUS',
+        description: 'Realizace IS vč. ATS a kolektoru',
+        cost: 'cca 31,1 mil.',
+        date: '08/2022 - 06/2023',
+        customer: 'POZIS-BAU s.r.o.',
+        year: 2022,
+        image: '2022-Trmice.jpg'
+    },
+     {
+        name: 'Praha – OBYTNÝ SOUBOR STODŮLKY - RD Řepora, Bytový dům a Zdravotní středisko',
+        description: 'Realizace ZP, IS a komunikací',
+        cost: 'cca 49,0 mil.',
+        date: '08/2022 - stále v realizaci',
+        customer: 'STEP, spol. s r.o.',
+        year: 2022,
+        image: '2022-OSS.jpg'
+    },
 ]
 
 export default ConstructionsArr
