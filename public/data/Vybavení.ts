@@ -124,12 +124,6 @@ const equipmentArr : Equipment[] = [
         image: '21.jpg'
     },
     {
-        name: 'KOMATSU CK 30-1',
-        description: 'housenicový nakladač, dělená čelní lopata, rychloupínač, paletizační vidle, vyznačuje se robustností, značnou trakční silou i ve ztížených podmínkách',
-        tags: ['nosnost 1,2t' ],
-        image: '12.jpg'
-    },
-    {
         name: 'JCB 409',
         description: 'přední kolový nakladač',
         tags: ['nosnost 1,7t'],
@@ -140,6 +134,18 @@ const equipmentArr : Equipment[] = [
         description: 'kolový teleskopický manipulátor',
         tags: ['nosnost 4,1t'],
         image: '35.jpg'
+    },
+    {
+        name: 'CAT 299D3 XE',
+        description: 'pásový nakladač bez dělené lžíce',
+        tags: ['nosnost 1,5t' ],
+        image: '43.jpg'
+    },
+    {
+        name: 'KOMATSU CK 30-1',
+        description: 'housenicový nakladač, dělená čelní lopata, rychloupínač, paletizační vidle, vyznačuje se robustností, značnou trakční silou i ve ztížených podmínkách',
+        tags: ['nosnost 1,2t' ],
+        image: '12.jpg'
     },
     {
         name: 'KOMATSU SK 714',
