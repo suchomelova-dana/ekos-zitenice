@@ -88,6 +88,12 @@ const equipmentArr : Equipment[] = [
         image: '17.jpg'
     },
     {
+        name: 'Nákladní automobil MAN TGS 8X8',
+        description: 's třístrannou sklopnou korbou a bočním hydraulickým čelem',
+        tags: ['nosnost 17t'],
+        image: '44.jpg'
+    },
+    {
         name: 'Nákladní automobil IVECO TRAKKER 8X8',
         description: 's třístrannou sklopnou korbou a bočním hydraulickým čelem',
         tags: ['nosnost 15t'],
