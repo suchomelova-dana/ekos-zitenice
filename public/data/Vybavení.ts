@@ -148,12 +148,6 @@ const equipmentArr : Equipment[] = [
         image: '43.jpg'
     },
     {
-        name: 'KOMATSU CK 30-1',
-        description: 'housenicový nakladač, dělená čelní lopata, rychloupínač, paletizační vidle, vyznačuje se robustností, značnou trakční silou i ve ztížených podmínkách',
-        tags: ['nosnost 1,2t' ],
-        image: '12.jpg'
-    },
-    {
         name: 'KOMATSU SK 714',
         description: 'smykem řízený nakladač',
         tags: ['nosnost 0,9t'],
