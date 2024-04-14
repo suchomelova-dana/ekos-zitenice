@@ -3,7 +3,7 @@
   <div style="position: relative">
     <div class="logoArea">
       <router-link to="/">
-        <img src='../../public/foto/homepage/logo.jpg' alt="logo" id="logoImg">
+        <img src='../../public/foto/homepage/ekos-logo.svg' alt="logo" id="logoImg">
       </router-link>
 
       <div class="burgerIconArea">
@@ -101,6 +101,10 @@ defineEmits(['change',])
     position: absolute;
     top: 60px;
     right: 0;
+  }
+
+  #logoImg {
+    margin-bottom: -30px;
   }
 }
 
