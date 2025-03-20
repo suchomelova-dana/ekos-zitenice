@@ -889,15 +889,7 @@ const ConstructionsArr : Construction[] = [
         date: '11/2023 - 12/2024',
         customer: 'EKOSPOL a.s.',
         year: 2024,
-        image: '2024-PISNICKE Z..jpg'
-
-
-
-
-         
-
-
-         
+        image: '2024-PISNICKE Z..jpg'         
     },
 ]
 
