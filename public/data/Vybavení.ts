@@ -118,6 +118,12 @@ const equipmentArr : Equipment[] = [
         image: '28.jpg'
     },
     {
+        name: 'Zemní válec HAMM 3412',
+        description: '',
+        tags: ['hmotnost 12,t'],
+        image: '45.jpg'
+    },
+    {
         name: 'Tažný válec BOMAG BW 124 PHD-5',
         description: '',
         tags: ['hmotnost 3,3t'],
