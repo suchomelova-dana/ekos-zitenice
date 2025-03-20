@@ -881,6 +881,24 @@ const ConstructionsArr : Construction[] = [
         year: 2023,
         image: '2023-Litvinov.jpg'
     },
+     // 2024 -------------------------------------------------------------
+     {
+        name: 'Praha – PÍSNICKÉ ZAHRADY (BD),
+        description: 'Realizace ZP, IS a komunikace',
+        cost: 'cca 16,8 mil.',
+        date: '11/2023 - 12/2024',
+        customer: 'EKOSPOL a.s.',
+        year: 2024,
+        image: '2024-PISNICKE Z..jpg'
+
+
+
+
+         
+
+
+         
+    },
 ]
 
 export default ConstructionsArr
