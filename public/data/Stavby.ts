@@ -879,7 +879,7 @@ const ConstructionsArr : Construction[] = [
         date: '10 - 12/2023',
         customer: 'KK výstavby, spol s r.o.',
         year: 2023,
-        image: '2023-Litvinov.jpg'
+        image: ''
     },
      // 2024 -------------------------------------------------------------
      {
