@@ -883,7 +883,7 @@ const ConstructionsArr : Construction[] = [
     },
      // 2024 -------------------------------------------------------------
      {
-        name: 'Černé Voděrady - lokalita zahrádky,
+        name: 'Černé Voděrady - lokalita zahrádky',
         description: 'Prodloužení kanalizace a vodovodu',
         cost: 'cca 5,9 mil.',
         date: '04 - 06/2024',
