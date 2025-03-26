@@ -739,7 +739,7 @@ const ConstructionsArr : Construction[] = [
         name: 'Praha - ARCUS CITY OBYTNÝ SOUBOR STODŮLKY JIH',
         description: 'Realizace ZP a kanalizace ZTI pro BD',
         cost: 'cca 6,5 mil.',
-        date: '08/2021 - stále v realizaci',
+        date: '08/2021 - 05/2022',
         customer: 'ALGON, a.s.',
         year: 2021,
         image: '2021-PrahaStodulky.jpg'
@@ -765,8 +765,8 @@ const ConstructionsArr : Construction[] = [
     {
         name: 'Praha - ARCUS CITY OBYTNÝ SOUBOR STODŮLKY JIH',
         description: 'Realizace HTÚ, ZP, kanalizace, vodovodu, poldru a komunikací',
-        cost: 'cca 83,0 mil.',
-        date: '12/2020 - stále v realizaci',
+        cost: 'cca 116,3 mil.',
+        date: '12/2020 - 02/2025',
         customer: 'UBM Stodůlky s.r.o.',
         year: 2021,
         image: '2021-PrahaStodulkyJih.jpg'
@@ -775,7 +775,7 @@ const ConstructionsArr : Construction[] = [
         name: 'Odkanalizování obcí v povodí Jizery – část B - Obec Holé Vrchy',
         description: 'Realizace kanalizace a vodovodu vč. přípojek',
         cost: 'cca 24,7 mil.',
-        date: '11/2020 - stále v realizaci',
+        date: '11/2020 - 01/2023',
         customer: ' VCES a.s.',
         year: 2021,
         image: '2021-HoleVrchy.jpg'
@@ -829,8 +829,8 @@ const ConstructionsArr : Construction[] = [
      {
         name: 'Praha – OBYTNÝ SOUBOR STODŮLKY - RD Řepora, Bytový dům a Zdravotní středisko',
         description: 'Realizace ZP, IS a komunikací',
-        cost: 'cca 49,0 mil.',
-        date: '08/2022 - stále v realizaci',
+        cost: 'cca 50,6 mil.',
+        date: '08/2022 - 01/2025',
         customer: 'STEP, spol. s r.o.',
         year: 2022,
         image: '2022-OSS.jpg'
@@ -890,6 +890,15 @@ const ConstructionsArr : Construction[] = [
         customer: 'Obec Černé Voděrady',
         year: 2024,
         image: '2024-VODERADY.jpg'         
+    },
+    {
+        name: 'Ústí n.L. – Rekonstrukce mostu Eduarda Beneše',
+        description: 'Realizace přeložek kanalizace a vodovodu',
+        cost: 'cca 12,2 mil.',
+        date: '10/2024 - 07/2026',
+        customer: 'Metrostav TBR a.s.',
+        year: 2024,
+        image: '2024-USTI.jpg'         
     },
 ]
 
