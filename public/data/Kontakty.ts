@@ -17,7 +17,7 @@ const ContactArray : Contact[] = [
     },
     {
         title: 'E-mail',
-        value: 'office@ekos-zitenice.cz',
+        value: '(mailto:office@ekos-zitenice.cz)',
         icon: 'envelope'
     },
     {
