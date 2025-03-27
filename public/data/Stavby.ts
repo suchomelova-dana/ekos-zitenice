@@ -883,6 +883,31 @@ const ConstructionsArr : Construction[] = [
     },
      // 2024 -------------------------------------------------------------
      {
+        name: 'Praha – PÍSNICKÉ ZAHRADY (BD)',
+        description: 'Realizace ZP, IS a komunikace',
+        cost: 'cca 16,8 mil.',
+        date: '11/2023 - 12/2024',
+        customer: 'EKOSPOL a.s.',
+        year: 2024,
+        image: '2024-PISNICE.jpg'         
+    },
+    {
+        name: 'Štětí - Mondi – EcoKraft II.',
+        description: 'Realizace přeložek vod. a kan. vč. jímek (vývařiště a ORL)',
+        cost: 'cca 7,7 mil.',
+        date: '02 - 07/2024',
+        customer: 'Mondi Štětí a.s.',
+        year: 2024,
+        image: '2024-MONDI.jpg'         
+    },
+    
+    
+    
+    
+    
+    
+    
+    {
         name: 'Černé Voděrady - lokalita zahrádky',
         description: 'Prodloužení kanalizace a vodovodu',
         cost: 'cca 5,9 mil.',
