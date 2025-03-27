@@ -11,15 +11,16 @@
              :key="contact.title"
              :class="{'green-item': contact.icon, 'green-text': contact.title === 'Obchodní jméno'}"
         >
-          <div  class="icon">
-            <font-awesome-icon v-if="contact.icon" :icon="['fas', contact.icon]" />
-          </div>
-          <div class="title">{{contact.title}}:</div>
-          <div class="value">{{contact.value}}</div>
-        </div>
-      </div>
-    </div>
-
+  <div>
+     <div class="icon">
+     <font-awesome-icon v-if="contact.icon" :icon="['fas', contact.icon]" />
+   </div>
+  <div class="title">{{ contact.title }}:</div>
+  <div class="value">
+    <a v-if="contact.title === 'E-mail'" :href="'mailto:' + contact.value">{{ contact.value }}</a>
+    <span v-else>{{ contact.value }}</span>
+  </div>
+</div>
     <div class="location">
       <div class="locationContent">
         <div class="heading">Kde nás najdete</div>
