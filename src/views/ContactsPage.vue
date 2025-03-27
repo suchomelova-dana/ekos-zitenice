@@ -37,7 +37,7 @@
       <p>Na základě Směrnice Evropského parlamentu a Rady EU 2019/1937 ze dne 23. října 2019 o ochraně osob, oznamujících porušení práva, zavedla společnost EKOS-Žitenice s.r.o. tzv. whistleblowingový systém. Díky tomuto systému mohou zaměstnanci (a nejen oni) bezpečně hlásit svá podezření na nekalé praktiky uvnitř naší společnosti. Za tímto účele byla zřízena „oznamovací linka“ v podobě e-mailu, na kterou mohou oznamovatelé zasílat svá oznámení, kterými se bude zabývat tzv. příslušná osoba, která bude následné komunikovat s oznamující osobou.</p>
       <div>
         <span class="mailTitle">E-mail:</span>
-        <span class="mailAdress">oznamovaci.linka@ekos-zitenice.cz</span>
+        <a href="mailto:oznamovaci.linka@ekos-zitenice.cz" class="mailAdress">oznamovaci.linka@ekos-zitenice.cz</a>
       </div>
     </div>
   </div>
