@@ -900,13 +900,6 @@ const ConstructionsArr : Construction[] = [
         year: 2024,
         image: '2024-MONDI.jpg'         
     },
-    
-    
-    
-    
-    
-    
-    
     {
         name: 'Černé Voděrady - lokalita zahrádky',
         description: 'Prodloužení kanalizace a vodovodu',
@@ -917,10 +910,28 @@ const ConstructionsArr : Construction[] = [
         image: '2024-VODERADY.jpg'         
     },
     {
+        name: 'Hořesedly – výstavba dálnice D6',
+        description: 'Realizace kanalizace vč. UV, HV a žlabů',
+        cost: 'cca 30,0 mil.',
+        date: '06/2024 - 06/2025',
+        customer: 'REMPLUS s.r.o.',
+        year: 2024,
+        image: '2024-D6.jpg'         
+    },
+    {
+        name: 'Žatec - Rekonstrukce ul. Husova',
+        description: 'Rekonstrukce kanalizace a vodovodu vč. komunikace',
+        cost: 'cca 38,0 mil.',
+        date: '07/2024 - 07/2025',
+        customer: 'Čermák a Hrachovec a.s.',
+        year: 2024,
+        image: '2024-ZATEC.jpg'         
+    },
+    {
         name: 'Ústí n.L. – Rekonstrukce mostu Eduarda Beneše',
         description: 'Realizace přeložek kanalizace a vodovodu',
         cost: 'cca 12,2 mil.',
-        date: '10/2024 - 07/2026',
+        date: '10/2024 - 07/2026 (s přerušením po dobu rek. mostu)',
         customer: 'Metrostav TBR a.s.',
         year: 2024,
         image: '2024-USTI.jpg'         
