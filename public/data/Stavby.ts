@@ -867,7 +867,7 @@ const ConstructionsArr : Construction[] = [
         name: 'Kladno - Logport Poldi',
         description: 'Realizace inženýrských sítí vč. ocelové retence DN 1200',
         cost: 'cca 11,2 mil.',
-        date: '07 - 11/2023',
+        date: '07/2023 - 09/2024',
         customer: 'POZIS-BAU s.r.o.',
         year: 2023,
         image: '2023-Kladno.jpg'
