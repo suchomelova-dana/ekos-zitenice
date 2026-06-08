@@ -912,7 +912,7 @@ const ConstructionsArr : Construction[] = [
     {
         name: 'Hořesedly – výstavba dálnice D6',
         description: 'Realizace kanalizace vč. UV, HV a žlabů',
-        cost: 'cca 30,0 mil.',
+        cost: 'cca 36,0 mil.',
         date: '06/2024 - 06/2025',
         customer: 'REMPLUS s.r.o.',
         year: 2024,
@@ -921,7 +921,7 @@ const ConstructionsArr : Construction[] = [
     {
         name: 'Žatec - Rekonstrukce ul. Husova',
         description: 'Rekonstrukce kanalizace a vodovodu vč. komunikace',
-        cost: 'cca 38,0 mil.',
+        cost: 'cca 43,5 mil.',
         date: '07/2024 - 07/2025',
         customer: 'Čermák a Hrachovec a.s.',
         year: 2024,
